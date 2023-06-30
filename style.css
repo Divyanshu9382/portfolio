@@ -1,0 +1,254 @@
+body {
+    background-color: #0f1111;
+    color: aliceblue;
+    margin: 0; 
+  }
+  
+  nav {
+    background-color: #0f1111;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    color: #fcd405;
+    font-size: 17px;
+  }
+  
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  }
+  .firstsection .name {
+    color: #fcd405;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .leftsection {
+    width: 100%;
+    max-width: 600px; 
+    margin: 50px 0;
+    text-align: center; 
+  }
+  
+  .leftsection h1 {
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 32px;
+  }
+  
+  .leftsection p {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    color: #a5a5a5;
+  }
+  
+  .rightsection {
+    width: 100%;
+    max-width: 400px; 
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact ul {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .contact ul li {
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  .contactme {
+    color: white;
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 170px;
+  }
+  .contact a:hover {
+    transform: rotate(350deg);
+  }
+  
+  .secondsection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  }
+  
+  .secondsection .skills {
+    width: 100%;
+    max-width: 600px; 
+    margin-bottom: 40px;
+  }
+  
+  .skills h2 {
+    font-family: cursive;
+    text-align: center; 
+    font-size: 27px;
+  }
+  
+  .about {
+    width: 100%;
+    max-width: 400px; 
+    margin-bottom: 40px;
+  }
+  
+  .about h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 39px;
+  }
+  
+  #para {
+    margin-top: 37px;
+    font-size: larger;
+  }
+  
+  .button {
+    border: none;
+    color: rgb(42, 38, 38);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #e4ebed;
+    overflow: hidden;
+    width: 150px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .button:hover {
+    background-color: #2fd2d2;
+    color: #fff; 
+  }
+  
+  
+  footer {
+    background-color: #201f1f;
+    color: #d0cfc0;
+    padding: 20px 0; 
+  }
+  
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  .skills {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .skills {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  .skills {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {
+    width: 80%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .css {
+    width: 70%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .js {
+    width: 65%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .php {
+    width: 60%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .skills p {
+    color: #fcd405;
+  }
+  .skills img {
+    margin-right: 100px;
+  }
+  .ml {
+    width: 60%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .c {
+    width: 75%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .dsa {
+    width: 50%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  .java {
+    width: 80%;
+    height: 30px;
+    background-color: #00b4d8;
+    border: 0px solid rgb(175, 123, 44);
+    border-radius: 10px;
+  }
+  
