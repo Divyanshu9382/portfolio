@@ -71,6 +71,9 @@ body {
     display: flex;
     justify-content: center;
   }
+  .rightsection img {
+    margin-top: 30px;
+  }
   
   .contact {
     margin-top: 23px;
